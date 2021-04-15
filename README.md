@@ -1,4 +1,4 @@
-# HPE_coding_challege
+# HPE_coding_challenge
 Coding challenge for HPE
 
 To run the code, please ensure NodeJS is installed on your machine.
