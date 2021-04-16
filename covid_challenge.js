@@ -10,7 +10,7 @@ var dublinAttendees = [];
 
 // 3 locations latitude and longitude
 var galwayLocation = {
-    "latitude":53.298810877564875,
+    "latitude": 53.298810877564875,
     "longitude": -8.997003657335881
 }
 
@@ -41,7 +41,7 @@ function whereToAttend() {
         var closestLocation = minimumDistance(attendeeDistanceGalway, attendeeDistanceCork, attendeeDistanceDublin);
 
         //comparing the location values to see what array the data needs to be stored in
-        if (closestLocation === attendeeDistanceGalway){
+        if (closestLocation === attendeeDistanceGalway) {
             galwayAttendees.push(person);
         } 
         else if (closestLocation === attendeeDistanceCork) {
